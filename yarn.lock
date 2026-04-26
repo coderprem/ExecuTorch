@@ -5311,6 +5311,11 @@ loose-envify@^1.0.0, loose-envify@^1.4.0:
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+lottie-react-native@^7.3.6:
+  version "7.3.6"
+  resolved "https://registry.yarnpkg.com/lottie-react-native/-/lottie-react-native-7.3.6.tgz#b5ab46bff3ec9e48d5efa8d31166dd53758a1aa9"
+  integrity sha512-TevFHRvFURh6GlaqLKrSNXuKAxvBvFCiXfS7FXQI1K/ikOStgAwWLFPGjW0i1qB2/VzPACKmRs+535VjHUZZZQ==
+
 lower-case@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-2.0.2.tgz#6fa237c63dbdc4a82ca0fd882e4722dc5e634e28"
@@ -6227,6 +6232,11 @@ react-native-executorch@^0.8.3:
     jsonschema "^1.5.0"
     pngjs "^7.0.0"
     zod "^4.3.6"
+
+react-native-fast-image@^8.6.3:
+  version "8.6.3"
+  resolved "https://registry.yarnpkg.com/react-native-fast-image/-/react-native-fast-image-8.6.3.tgz#6edc3f9190092a909d636d93eecbcc54a8822255"
+  integrity sha512-Sdw4ESidXCXOmQ9EcYguNY2swyoWmx53kym2zRsvi+VeFCHEdkO+WG1DK+6W81juot40bbfLNhkc63QnWtesNg==
 
 react-native-gesture-handler@^2.31.1:
   version "2.31.1"

@@ -114,6 +114,7 @@ export const SVGS = {
 export const IMAGES = {
   placeholder: require('../assets/images/placeHolder.png'),
   transparent: require('../assets/images/logo.png'),
+  appLogo: require('../assets/images/appLogo.png'),
 };
 
 
