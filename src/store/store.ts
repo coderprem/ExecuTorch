@@ -13,7 +13,7 @@ if (__DEV__) {
 const persistConfig = {
   key: 'root',
   storage: storage,
-  whitelist: [],
+  whitelist: ['auth'],
 };
 
 const rootReducer = combineReducers({
