@@ -1,7 +1,10 @@
 // ThemeContext.tsx
 
-import React, { createContext, useState } from 'react';
+import React, { createContext } from 'react';
 import { LightTheme, DarkTheme, ThemeType } from './theme';
+import { useAppSelector, useAppDispatch } from '../store/hooks';
+import { getTheme } from '../store/slice/auth/authSelector';
+import { setTheme } from '../store/slice/auth/authReducer';
 
 type ThemeContextType = {
   theme: ThemeType;
@@ -12,9 +15,14 @@ type ThemeContextType = {
 export const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
-  const [isDark, setIsDark] = useState(false);
+  const dispatch = useAppDispatch();
+  const currentTheme = useAppSelector(getTheme);
 
-  const toggleTheme = () => setIsDark(prev => !prev);
+  const isDark = currentTheme === 'dark';
+
+  const toggleTheme = () => {
+    dispatch(setTheme(isDark ? 'light' : 'dark'));
+  };
 
   const theme = isDark ? DarkTheme : LightTheme;
 

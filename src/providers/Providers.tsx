@@ -8,6 +8,7 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { store, persistor } from '../store/store';
 import { DrawerProvider } from './DrawerProvider';
 import AppDrawer from '../components/AppDrawer';
+import { ThemeProvider } from '../theme/ThemeContext';
 
 const queryClient = new QueryClient();
 
@@ -17,13 +18,15 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
       <QueryClientProvider client={queryClient}>
         <Provider store={store}>
           <PersistGate loading={null} persistor={persistor}>
-            <SafeAreaProvider>
-              <DrawerProvider>  
-                <AppDrawer>
-                  {children}
-                </AppDrawer>
-              </DrawerProvider>
-            </SafeAreaProvider>
+            <ThemeProvider>
+              <SafeAreaProvider>
+                <DrawerProvider>  
+                  <AppDrawer>
+                    {children}
+                  </AppDrawer>
+                </DrawerProvider>
+              </SafeAreaProvider>
+            </ThemeProvider>
           </PersistGate>
         </Provider>
       </QueryClientProvider>

@@ -1,5 +1,7 @@
 // theme.ts
 
+export type themeMode = 'light' | 'dark';
+
 export const LightTheme = {
   mode: 'light',
 
