@@ -7,24 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006ACE54FC9742CB81F876DE /* GoogleSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B2DD21F388F43F5A56121C4 /* GoogleSans-Bold.ttf */; };
+		00FA0C0972124930914346A6 /* GoogleSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A8B8D18B9574C979F196DCA /* GoogleSans-MediumItalic.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-ExecuTorch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ExecuTorch.a */; };
+		0D32A53ACA734DBCB142F06B /* GoogleSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 046BD3BA48B7496CBCFFCB76 /* GoogleSans-Regular.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		34E3C585DD134A869A9611AE /* GoogleSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 303CE3D4C4174755979F16C3 /* GoogleSans-Italic.ttf */; };
+		3AE2E48040B443E1B7B36C38 /* GoogleSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BD55F2088014EA6A99897B1 /* GoogleSans-SemiBold.ttf */; };
+		593C81B4A2D64ECB99AD93F4 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38D93F56519498AA0E6041A /* BootSplash.storyboard */; };
+		6278A87A72E6404891B6B3B6 /* GoogleSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F3F31BE8C784E489D09DB1C /* GoogleSans-SemiBoldItalic.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B395087EBB8A423082C9B83F /* GoogleSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54F531304C224F6B81553E1F /* GoogleSans-Medium.ttf */; };
 		BC9FB8F65C4248D5FE6AB388 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		C052DB6F3D2A4E2FA95CCE84 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C319E8FF1043A0BE6001E4 /* Colors.xcassets */; };
+		E0A5958CDE02428A9073C9FD /* GoogleSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE868A2B9ED94D70889D031B /* GoogleSans-BoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046BD3BA48B7496CBCFFCB76 /* GoogleSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Regular.ttf"; path = "../src/assets/fonts/GoogleSans-Regular.ttf"; sourceTree = "<group>"; };
+		0A8B8D18B9574C979F196DCA /* GoogleSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-MediumItalic.ttf"; path = "../src/assets/fonts/GoogleSans-MediumItalic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ExecuTorch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExecuTorch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ExecuTorch/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ExecuTorch/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ExecuTorch/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		303CE3D4C4174755979F16C3 /* GoogleSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Italic.ttf"; path = "../src/assets/fonts/GoogleSans-Italic.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ExecuTorch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExecuTorch.debug.xcconfig"; path = "Target Support Files/Pods-ExecuTorch/Pods-ExecuTorch.debug.xcconfig"; sourceTree = "<group>"; };
+		54F531304C224F6B81553E1F /* GoogleSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Medium.ttf"; path = "../src/assets/fonts/GoogleSans-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ExecuTorch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExecuTorch.release.xcconfig"; path = "Target Support Files/Pods-ExecuTorch/Pods-ExecuTorch.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ExecuTorch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExecuTorch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2DD21F388F43F5A56121C4 /* GoogleSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-Bold.ttf"; path = "../src/assets/fonts/GoogleSans-Bold.ttf"; sourceTree = "<group>"; };
+		6BD55F2088014EA6A99897B1 /* GoogleSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-SemiBold.ttf"; path = "../src/assets/fonts/GoogleSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ExecuTorch/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ExecuTorch/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F3F31BE8C784E489D09DB1C /* GoogleSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-SemiBoldItalic.ttf"; path = "../src/assets/fonts/GoogleSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D38D93F56519498AA0E6041A /* BootSplash.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BootSplash.storyboard; path = ExecuTorch/BootSplash.storyboard; sourceTree = "<group>"; };
+		E6C319E8FF1043A0BE6001E4 /* Colors.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ExecuTorch/Colors.xcassets; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE868A2B9ED94D70889D031B /* GoogleSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "GoogleSans-BoldItalic.ttf"; path = "../src/assets/fonts/GoogleSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				D38D93F56519498AA0E6041A /* BootSplash.storyboard */,
+				E6C319E8FF1043A0BE6001E4 /* Colors.xcassets */,
 			);
 			name = ExecuTorch;
 			sourceTree = "<group>";
@@ -58,6 +80,22 @@
 				5DCACB8F33CDC322A6C60F78 /* libPods-ExecuTorch.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68C98CB8CE564B5AA1FEBD58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				303CE3D4C4174755979F16C3 /* GoogleSans-Italic.ttf */,
+				6BD55F2088014EA6A99897B1 /* GoogleSans-SemiBold.ttf */,
+				6B2DD21F388F43F5A56121C4 /* GoogleSans-Bold.ttf */,
+				EE868A2B9ED94D70889D031B /* GoogleSans-BoldItalic.ttf */,
+				046BD3BA48B7496CBCFFCB76 /* GoogleSans-Regular.ttf */,
+				0A8B8D18B9574C979F196DCA /* GoogleSans-MediumItalic.ttf */,
+				9F3F31BE8C784E489D09DB1C /* GoogleSans-SemiBoldItalic.ttf */,
+				54F531304C224F6B81553E1F /* GoogleSans-Medium.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -75,6 +113,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				68C98CB8CE564B5AA1FEBD58 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +200,16 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				BC9FB8F65C4248D5FE6AB388 /* PrivacyInfo.xcprivacy in Resources */,
+				34E3C585DD134A869A9611AE /* GoogleSans-Italic.ttf in Resources */,
+				3AE2E48040B443E1B7B36C38 /* GoogleSans-SemiBold.ttf in Resources */,
+				006ACE54FC9742CB81F876DE /* GoogleSans-Bold.ttf in Resources */,
+				E0A5958CDE02428A9073C9FD /* GoogleSans-BoldItalic.ttf in Resources */,
+				0D32A53ACA734DBCB142F06B /* GoogleSans-Regular.ttf in Resources */,
+				00FA0C0972124930914346A6 /* GoogleSans-MediumItalic.ttf in Resources */,
+				6278A87A72E6404891B6B3B6 /* GoogleSans-SemiBoldItalic.ttf in Resources */,
+				B395087EBB8A423082C9B83F /* GoogleSans-Medium.ttf in Resources */,
+				593C81B4A2D64ECB99AD93F4 /* BootSplash.storyboard in Resources */,
+				C052DB6F3D2A4E2FA95CCE84 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
