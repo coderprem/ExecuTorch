@@ -17,6 +17,7 @@ const PROFILE_GALLERY_PICK_DEFAULTS: ImageLibraryOptions = {
 export enum AppPermission {
   GALLERY = 'GALLERY',
   CAMERA = 'CAMERA',
+  MICROPHONE = 'MICROPHONE',
 }
 
 export const requestPermission = async (
@@ -39,6 +40,14 @@ export const requestPermission = async (
     case AppPermission.CAMERA: {
       const granted = await PermissionsAndroid.request(
         PermissionsAndroid.PERMISSIONS.CAMERA
+      );
+
+      return granted === PermissionsAndroid.RESULTS.GRANTED;
+    }
+
+    case AppPermission.MICROPHONE: {
+      const granted = await PermissionsAndroid.request(
+        PermissionsAndroid.PERMISSIONS.RECORD_AUDIO,
       );
 
       return granted === PermissionsAndroid.RESULTS.GRANTED;

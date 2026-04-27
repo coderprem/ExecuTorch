@@ -26,7 +26,7 @@ export default function AppTabBar({
   navigation,
   tabItems,
 }: Props) {
-  const { theme, isDark } = useTheme();
+  const { theme } = useTheme();
   const styles = useMemo(() => getStyles(theme), [theme]);
 
   return (

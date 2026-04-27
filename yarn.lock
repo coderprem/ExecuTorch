@@ -6219,6 +6219,13 @@ react-is@^19.1.0, react-is@^19.2.3:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-19.2.5.tgz#7e7b54143e9313fed787b23fd4295d5a23872ad9"
   integrity sha512-Dn0t8IQhCmeIT3wu+Apm1/YVsJXsGWi6k4sPdnBIdqMVtHtv0IGi6dcpNpNkNac0zB2uUAqNX3MHzN8c+z2rwQ==
 
+react-native-audio-api@^0.12.1:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/react-native-audio-api/-/react-native-audio-api-0.12.1.tgz#6f1674f53e1fbbef2d940526a8b0dc84e519167c"
+  integrity sha512-4SWtsgUNOfVLQ6jaOfmXklc+JiB4a04x6gzd1nX4NN3F8e2CQ7cH4aNuIo7E86nNk+epncZVyr124S+V6mxumw==
+  dependencies:
+    semver "^7.7.3"
+
 react-native-bootsplash@^7.3.1:
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/react-native-bootsplash/-/react-native-bootsplash-7.3.1.tgz#34b630b092ab306bb9297634337b76abd211576d"

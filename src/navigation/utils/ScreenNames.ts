@@ -1,5 +1,5 @@
 export const ScreenNames = {
-  CHAT: 'Chat Screen',
+  CHAT: 'Chat',
   TEXT_TO_SPEECH: 'Text to Speech',
   SPEECH_TO_TEXT: 'Speech to Text',
   IMAGE_GENERATOR: 'Image Generator',
