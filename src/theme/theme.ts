@@ -6,21 +6,28 @@ export const LightTheme = {
   mode: 'light',
 
   colors: {
-    primary: '#5295ED',
-    primaryDark: '#3E7BD6',
-    primaryLight: '#EAF2FF',
+    primary: '#4F7DF3',
+    onPrimary: '#FFFFFF',
 
-    background: '#F7F9FC',
+    primaryContainer: '#E0EAFF',
+    onPrimaryContainer: '#0B1B3F',
+
+    background: '#F8FAFF',
     surface: '#FFFFFF',
+    surfaceVariant: '#EEF2FF',
 
-    textPrimary: '#1F2A44',
-    textSecondary: '#6B7A99',
+    textPrimary: '#0F172A',
+    textSecondary: '#64748B',
 
-    border: '#D6E4FF',
+    border: '#E2E8F0',
+    outline: '#CBD5F5',
 
-    success: '#6FCF97',
-    warning: '#F2A65A',
-    error: '#EB5757',
+    success: '#22C55E',
+    warning: '#F59E0B',
+    error: '#EF4444',
+
+    // 🔥 gradient (matches your logo)
+    gradientPrimary: ['#4F7DF3', '#7BAAF7', '#A5C8FF'],
   },
 };
 
@@ -28,21 +35,27 @@ export const DarkTheme = {
   mode: 'dark',
 
   colors: {
-    primary: '#5295ED',
-    primaryDark: '#3E7BD6',
-    primaryLight: '#1E3A5F',
+    primary: '#8FB4FF',
+    onPrimary: '#0B1B3F',
 
-    background: '#0F172A',
-    surface: '#1E293B',
+    primaryContainer: '#1E3A8A',
+    onPrimaryContainer: '#DCE7FF',
 
-    textPrimary: '#E2E8F0',
-    textSecondary: '#94A3B8',
+    background: '#0B1220',   // softer than your current
+    surface: '#111827',      // layered UI
+    surfaceVariant: '#1F2937',
 
-    border: '#334155',
+    textPrimary: '#E5E7EB',
+    textSecondary: '#9CA3AF',
 
-    success: '#6FCF97',
-    warning: '#F2A65A',
-    error: '#EB5757',
+    border: '#1F2A44',
+    outline: '#334155',
+
+    success: '#4ADE80',
+    warning: '#FBBF24',
+    error: '#F87171',
+
+    gradientPrimary: ['#3B82F6', '#6366F1', '#8B5CF6'], // 🔥 AI vibe
   },
 };
 

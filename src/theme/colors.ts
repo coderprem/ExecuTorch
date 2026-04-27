@@ -1,66 +1,94 @@
 // colors.ts
 
 export const Colors = {
-  primary: {
-    main: '#5295ED',
-    dark: '#3E7BD6',
-    light: '#EAF2FF',
-  },
+  brandPrimary: '#5295ED',
+  brandSecondary: '#3E7BD6',
+  brandAccentBlue: '#7F85F5',
+  brandAccentOrange: '#F08300',
+  brandAccentRed: '#E3000F',
 
-  background: {
-    app: '#F7F9FC',
-    surface: '#FFFFFF',
-  },
+  white: '#FFFFFF',
+  black: '#000000',
+  transparent: 'transparent',
 
-  text: {
-    primary: '#1F2A44',
-    secondary: '#6B7A99',
-    disabled: '#A0AEC0',
-    inverse: '#FFFFFF',
-  },
+  bgSecondary: '#F7F4FC',
+  bgLight: '#F6F6F6',
+  bgMuted: '#F2F2F5',
+  bgDark: '#141414',
+  bgTertiary: '#F3F2F5',
 
-  border: {
-    light: '#EAF2FF',
-    default: '#D6E4FF',
-  },
+  textPrimary: '#212121',
+  textSecondary: '#555555',
+  textMuted: '#757575',
+  textStrong: '#424242',
 
-  status: {
-    success: '#6FCF97',
-    warning: '#F2A65A',
-    error: '#EB5757',
-  },
+  grey100: '#F7F7F7',
+  grey200: '#EDEDED',
+  grey300: '#D1D1D1',
+  grey400: '#B0B0B0',
+  grey500: '#979797',
+  grey600: '#757575',
+  grey700: '#555555',
+  grey750: '#404040',
+  grey800: '#323130',
+  grey900: '#1C1C1E',
 
-  button: {
-    primary: {
-      bg: '#5295ED',
-      text: '#FFFFFF',
-      pressed: '#3E7BD6',
-      disabledBg: '#E2E8F0',
-      disabledText: '#A0AEC0',
-    },
-    secondary: {
-      bg: '#EAF2FF',
-      text: '#5295ED',
-    },
-  },
+  borderDefault: '#CECECE',
+  borderDark: '#C6C6C6',
 
-  input: {
-    bg: '#FFFFFF',
-    border: '#D6E4FF',
-    focus: '#5295ED',
-    error: '#EB5757',
-  },
+  success: '#009E35',
+  error: '#E24C4B',
+  warning: '#FFC24A',
+  info: '#0092ED',
 
-  navigation: {
-    headerBg: '#5295ED',
-    headerText: '#FFFFFF',
-    active: '#5295ED',
-    inactive: '#6B7A99',
-  },
+  highlightGreen: '#12C898',
+  highlightPink: '#DB62AB',
+  highlightPurple: '#AF8EE9',
 
-  gradient: {
-    primary: ['#5295ED', '#7BAAF7'],
-  },
+  purpleDark: '#220046',
+  purpleMid: '#8856DF',
+  purpleLight: '#D7C6F4',
+  purpleTint: '#F7F2FD',
+  purpleBorder: '#EFE8FB',
+  purpleMuted: '#8E81A1',
+
+
+  overlayLight: 'rgba(0,0,0,0.1)',
+  overlayMedium: 'rgba(0,0,0,0.5)',
+  overlayDark: 'rgba(0,0,0,0.8)',
+
+  whiteOpacity10: 'rgba(255,255,255,0.1)',
+  whiteOpacity30: 'rgba(255,255,255,0.3)',
+  whiteOpacity50: 'rgba(255,255,255,0.5)',
+  whiteOpacity70: '#FFFFFFB2',
+
+  blackOpacity15: 'rgba(0,0,0,0.15)',
+  blackOpacity30: 'rgba(0,0,0,0.3)',
+  blackOpacity50: 'rgba(0,0,0,0.5)',
+  blackOpacity60: 'rgba(0,0,0,0.6)',
+  blackOpacity70: 'rgba(0,0,0,0.7)',
+  blackOpacity90: 'rgba(0,0,0,0.9)',
+
+  cardBorder: '#0000001A',
+  shadowLight: 'rgba(0,0,0,0.14)',
+  shadowMedium: 'rgba(0,0,0,0.25)',
+  borderMuted: '#979593',
+
+  skeletonBase: '#18181A',
+  skeletonHighlight: '#333333',
+  gold: 'gold',
+  lightPink: '#F3CBE3',
+
+  purple1: '#22004600',
+  purple2: '#3E057A',
+  purple3: '#020005',
+
+  errorColor: '#EE7789',
+
+  toast1: '#433084',
+  toast2: '#240349',
+
+  red: '#FF0000',
 } as const;
 
 export type ColorsType = typeof Colors;

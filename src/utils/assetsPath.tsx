@@ -36,6 +36,15 @@ import onDemandSelected from '../assets/svgs/onDemandSelected.svg';
 import watchlistSelected from '../assets/svgs/watchListSelected.svg';
 import tvGuideSelected from '../assets/svgs/tvGuideSelected.svg';
 import appLogo from '../assets/svgs/appLogo.svg';
+import chat from '../assets/svgs/chat.svg';
+import chatSelected from '../assets/svgs/chatSelected.svg';
+import image from '../assets/svgs/image.svg';
+import imageGenerator from '../assets/svgs/imageGenerator.svg';
+import speechToText from '../assets/svgs/speechToText.svg'
+import textToSpeech from '../assets/svgs/textToSpeech.svg'
+import lightMode from '../assets/svgs/lightMode.svg'
+import darkMode from '../assets/svgs/darkMode.svg'
+
 
 export const upArrow = (props: any) => {
   return (
@@ -107,6 +116,15 @@ export const SVGS = {
   onDemandSelected: onDemandSelected,
   watchlistSelected: watchlistSelected,
   tvGuideSelected: tvGuideSelected,
+  appLogo: appLogo,
+  chat: chat,
+  chatSelected: chatSelected,
+  image: image,
+  imageGenerator: imageGenerator,
+  speechToText: speechToText,
+  textToSpeech: textToSpeech,
+  lightMode: lightMode,
+  darkMode: darkMode
 };
 
 
