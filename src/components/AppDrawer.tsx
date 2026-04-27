@@ -70,12 +70,12 @@ const styles = StyleSheet.create({
     top: 0,
     bottom: 0,
     width: DRAWER_WIDTH,
-    backgroundColor: Colors.primary.light,
+    backgroundColor: Colors.bgDark,
     zIndex: 10,
   },
   overlay: {
     ...StyleSheet.absoluteFill,
-    backgroundColor: Colors.primary.dark,
+    backgroundColor: Colors.blackOpacity60,
   },
 });
 
