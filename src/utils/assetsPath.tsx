@@ -44,7 +44,7 @@ import speechToText from '../assets/svgs/speechToText.svg'
 import textToSpeech from '../assets/svgs/textToSpeech.svg'
 import lightMode from '../assets/svgs/lightMode.svg'
 import darkMode from '../assets/svgs/darkMode.svg'
-
+import huggingFace from '../assets/svgs/huggingFace.svg'
 
 export const upArrow = (props: any) => {
   return (
@@ -124,7 +124,8 @@ export const SVGS = {
   speechToText: speechToText,
   textToSpeech: textToSpeech,
   lightMode: lightMode,
-  darkMode: darkMode
+  darkMode: darkMode,
+  huggingFace: huggingFace
 };
 
 

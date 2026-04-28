@@ -1518,6 +1518,28 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
+  - react-native-netinfo (12.0.1):
+    - hermes-engine
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Core
+    - React-Core-prebuilt
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-jsi
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-renderercss
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - ReactNativeDependencies
+    - Yoga
   - react-native-safe-area-context (5.7.0):
     - hermes-engine
     - RCTRequired
@@ -2476,6 +2498,7 @@ DEPENDENCIES:
   - "react-native-background-downloader (from `../node_modules/@kesha-antonov/react-native-background-downloader`)"
   - react-native-executorch (from `../node_modules/react-native-executorch`)
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
+  - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-networking (from `../node_modules/react-native/ReactCommon/react/networking`)
@@ -2624,6 +2647,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-executorch"
   react-native-image-picker:
     :path: "../node_modules/react-native-image-picker"
+  react-native-netinfo:
+    :path: "../node_modules/@react-native-community/netinfo"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-NativeModulesApple:
@@ -2738,7 +2763,7 @@ SPEC CHECKSUMS:
   React: 13cf8451582adb1bb324306e1893b91d1cba28c6
   React-callinvoker: 91e6a605826b684ad2e623811253b4d0c4196bef
   React-Core: ac262b0679a1abe5f83afe52e921d4f5c063a48e
-  React-Core-prebuilt: edd1f040042d40d108ba5bb160595f0046aa6a0a
+  React-Core-prebuilt: e02ab4a4ce5dfd7c4a02e352c1947382e7f188ef
   React-CoreModules: 29a50b5a2d5e2f6ad9b62bbf588072cc59d66dd6
   React-cxxreact: fec59c31cd8c9fa65d7abeb306ed36c75e8ea7c0
   React-debug: 0d21117b897ce0359c9d2c9dfe952f237476a14a
@@ -2769,6 +2794,7 @@ SPEC CHECKSUMS:
   react-native-background-downloader: 74e5cfdd1454b5ddaed32f219df1be831358873d
   react-native-executorch: 9e985c92e99579b136b82517069cd863f4b130e4
   react-native-image-picker: 2146157d5d37a34c2063d1d2ed01081b56d0b87b
+  react-native-netinfo: 723f91aea0c7b4a8701bc1ede8fc162c8b1cf282
   react-native-safe-area-context: a2325922b8594ddd27f98fb13437aec126be2502
   React-NativeModulesApple: 902ad35a8aa6c13085cad3a19f87c5c752aa0115
   React-networking: c5ab123819ccb65b2e9ca5c0e63a9afcfeb8baef

@@ -1129,10 +1129,23 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@huggingface/jinja@^0.5.0":
+"@huggingface/inference@^4.13.15":
+  version "4.13.15"
+  resolved "https://registry.yarnpkg.com/@huggingface/inference/-/inference-4.13.15.tgz#c7c32fe0fbf6f56ca366fb05715240e03f15119a"
+  integrity sha512-V7B13KFDVhYkQqgx8vpMcmtEG+PoePlh65IUvpphTTItHAq6zRLcsS4torh1QavUaT+6nEwho4wFXzBQNGBwKQ==
+  dependencies:
+    "@huggingface/jinja" "^0.5.5"
+    "@huggingface/tasks" "^0.19.90"
+
+"@huggingface/jinja@^0.5.0", "@huggingface/jinja@^0.5.5":
   version "0.5.8"
   resolved "https://registry.yarnpkg.com/@huggingface/jinja/-/jinja-0.5.8.tgz#14dbc533464c8218963473595c9fb882a2988ae1"
   integrity sha512-ZdElB7DPS7QQS8ZnFc5RPPtkg+eN11z8AmIZWAyes6pSbwXqiFB/POVevvm01begdSX1ho9Gxln/F6qlQMsuaA==
+
+"@huggingface/tasks@^0.19.90":
+  version "0.19.90"
+  resolved "https://registry.yarnpkg.com/@huggingface/tasks/-/tasks-0.19.90.tgz#0f449ae2d5239dcb138e47f2446201dd6b512c2d"
+  integrity sha512-nfV9luJbvwGQ/5oKXkKhCV9h4X7mwh1YaGG3ORd6UMLDSwr1OFSSatcBX0O9OtBtmNK19aGSjbLFqqgcIR6+IA==
 
 "@humanwhocodes/config-array@^0.13.0":
   version "0.13.0"
@@ -1746,6 +1759,11 @@
     picocolors "^1.1.1"
     prompts "^2.4.2"
     semver "^7.5.2"
+
+"@react-native-community/netinfo@^12.0.1":
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/netinfo/-/netinfo-12.0.1.tgz#fec75f4093c27778479d8927b4f51f133b8a13a4"
+  integrity sha512-P/3caXIvfYSJG8AWJVefukg+ZGRPs+M4Lp3pNJtgcTYoJxCjWrKQGNnCkj/Cz//zWa/avGed0i/wzm0T8vV2IQ==
 
 "@react-native/assets-registry@0.85.2":
   version "0.85.2"

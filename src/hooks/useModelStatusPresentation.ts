@@ -35,12 +35,13 @@ export function useModelStatusPresentation({
   );
 
   const statusDotColor = useMemo(() => {
+    const errorMessage = error?.message;
     if (error) {
       return theme.colors.error;
     }
     if (
       isModelStatusShowingReadyState({
-        errorMessage: error?.message,
+        errorMessage,
         isReady,
         downloadProgress,
       })

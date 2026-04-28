@@ -27,6 +27,11 @@ const tabItemsList: TabItem[] = [
     selectedIcon: SVGS.textToSpeech,
     unselectedIcon: SVGS.textToSpeech
   },
+  {
+    defaultTitle: ScreenNames.HUGGING_FACE,
+    selectedIcon: SVGS.huggingFace,
+    unselectedIcon: SVGS.huggingFace
+  },
 ]
 
 export default function TabsNavigator() {
@@ -34,7 +39,8 @@ export default function TabsNavigator() {
     ScreenNames.CHAT, 
     ScreenNames.IMAGE_GENERATOR, 
     ScreenNames.SPEECH_TO_TEXT, 
-    ScreenNames.TEXT_TO_SPEECH
+    ScreenNames.TEXT_TO_SPEECH,
+    ScreenNames.HUGGING_FACE
   ]
   
   return (

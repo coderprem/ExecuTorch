@@ -29,6 +29,17 @@ export const ImageGenerationStrings = {
   generating: 'Generating…',
 };
 
+export const HuggingFaceStrings = {
+  placeholder: 'Describe an image…',
+  generate: 'Generate',
+  generating: 'Generating…',
+  offlineMessage:
+    'Internet connection is required to use Hugging Face inference.',
+  tokenMissing:
+    'Set HF_INFERENCE_API_KEY, HF_API_KEY, or HF_TOKEN in the project root .env, then restart Metro with --reset-cache.',
+  generationFailed: 'Could not generate an image. Try again.',
+};
+
 export const SpeechToTextStrings = {
   readyToTranscribe: 'Ready to transcribe',
   tapToRecord: 'Tap to record',
